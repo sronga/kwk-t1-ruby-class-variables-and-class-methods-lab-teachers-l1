@@ -20,8 +20,8 @@ class Song
 
   def self.artists
 
-    if @artist.include?(self)
-
+    if @artist.include?(self.artist)
+      
     else
 
     end
