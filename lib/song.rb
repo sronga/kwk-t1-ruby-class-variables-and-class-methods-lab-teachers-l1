@@ -15,12 +15,15 @@ class Song
   end
 
   def count
+    return @@count
   end
 
   def artists
+
   end
 
   def genres
+
   end
 
 end
