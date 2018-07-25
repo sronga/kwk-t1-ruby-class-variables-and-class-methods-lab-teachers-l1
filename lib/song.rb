@@ -19,10 +19,13 @@ class Song
   end
 
   def self.artists
-    @artist.each do |eachartist|
-      if 
-      end
-    end
+
+    if @artist.include?(self)
+
+    else
+
+    end 
+
   end
 
   def genres
