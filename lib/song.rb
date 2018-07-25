@@ -29,13 +29,13 @@ class Song
   end
 
   def self.artist_count
-    totalHash = {}
+    artistHash = {}
 
     @@artists.each do |indivartist|
-      if totalHash.include?(indivartist) == true
-        totalHash[indivartist] += 1
+      if artistHash.include?(indivartist) == true
+        artistHash[indivartist] += 1
       else
-        totalHash[indivartist] = 1
+        artistHash[indivartist] = 1
       end
     end
 
