@@ -20,7 +20,7 @@ class Song
 
   def self.artists
     @artist.each do |eachartist|
-      
+      if
     end
   end
 
