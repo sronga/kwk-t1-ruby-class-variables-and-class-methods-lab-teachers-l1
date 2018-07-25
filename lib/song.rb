@@ -42,4 +42,18 @@ class Song
     return artistHash
   end
 
+  def self.genre.count
+    genreHash = {}
+
+    @@genres.each do |indivgenre|
+      if genreHash.include?(indivgenre) == true
+        genreHash[indivgenre] += 1
+      else
+        genreHash[indivgenre] = 1
+      end
+    end
+
+    return genreHash
+  end
+
 end
