@@ -39,7 +39,7 @@ class Song
       end
     end
 
-    return totalHash
+    return artistHash
   end
 
 end
