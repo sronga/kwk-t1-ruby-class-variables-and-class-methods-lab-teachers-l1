@@ -19,7 +19,9 @@ class Song
   end
 
   def self.artists
-    
+    @artist.each do |eachartist|
+      
+    end
   end
 
   def genres
