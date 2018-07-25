@@ -31,7 +31,11 @@ class Song
   def self.artist_count
     totalHash = {}
 
-    
+    @@artist.each do |indivartist|
+      if totalHash.include?(indivartist)
+
+      end
+    end 
 
     return totalHash
   end
