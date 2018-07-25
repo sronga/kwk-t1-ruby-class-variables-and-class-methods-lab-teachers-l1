@@ -40,4 +40,5 @@ class Song
 
     return totalHash
   end
+  
 end
