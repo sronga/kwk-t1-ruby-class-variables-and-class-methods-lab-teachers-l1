@@ -29,6 +29,6 @@ class Song
   end
 
   def self.artist_count
-    
+    totalHash = Hash.new
   end
 end
