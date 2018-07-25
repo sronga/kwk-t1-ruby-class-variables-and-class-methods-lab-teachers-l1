@@ -32,9 +32,9 @@ class Song
     totalHash = {}
 
     @@artist.each do |indivartist|
-      if totalHash.include?(indivartist) == true 
+      if totalHash.include?(indivartist) == true
         totalHash[indivartist] += 1
-      else totalHash[indivartist] += 1
+      else totalHash[indivartist] = 1
       end
     end
 
