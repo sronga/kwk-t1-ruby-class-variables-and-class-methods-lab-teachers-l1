@@ -23,10 +23,4 @@ class Song
   def genres
   end
 
-  def genre_count
-  end
-
-  def artist_count
-  end
-
 end
